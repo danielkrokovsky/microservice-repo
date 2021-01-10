@@ -9,4 +9,4 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQL94Dialect
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
