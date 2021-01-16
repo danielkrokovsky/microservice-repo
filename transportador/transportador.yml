@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    initialization-mode: always
+    password: Postgres2019!
+    platform: postgres
+    url: jdbc:postgresql://localhost:15432/fornecedor
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
