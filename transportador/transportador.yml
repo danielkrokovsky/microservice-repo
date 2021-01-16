@@ -3,7 +3,7 @@ spring:
     initialization-mode: always
     password: Postgres2019!
     platform: postgres
-    url: jdbc:postgresql://localhost:15432/fornecedor
+    url: jdbc:postgresql://localhost:15432/transportador
     username: postgres
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQL94Dialect
